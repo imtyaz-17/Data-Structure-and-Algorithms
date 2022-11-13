@@ -1,3 +1,7 @@
+// Maximum and minimum of an array using minimum number of comparisons
+//  https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/
+
+// Maximum and minimum of an array by comparing in pairs:   [*** Best Method ***]
 #include <bits/stdc++.h>
 using namespace std;
 
