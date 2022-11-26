@@ -7,7 +7,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-0void printSubStr(string str, int low, int high)
+void printSubStr(string str, int low, int high)
 {
     for (int i = low; i <= high; ++i)
         cout << str[i];
