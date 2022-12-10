@@ -12,8 +12,8 @@ using namespace std;
 
 void modifyMatrix(bool mat[R][C])
 {
-    bool rowFlag = false;
-    bool colFlag = false;
+    bool rowFlag;
+    bool colFlag;
 
     for (int i = 0; i < R; i++)
     {
