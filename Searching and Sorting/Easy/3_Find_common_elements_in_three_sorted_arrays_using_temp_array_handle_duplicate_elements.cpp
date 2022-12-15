@@ -12,7 +12,7 @@ void findCommon(int ar1[], int ar2[], int ar3[], int n1, int n2, int n3)
     int i = 0, j = 0, k = 0;
     int prev1, prev2, prev3;
     prev1 = prev2 = prev3 = INT_MIN;
-
+    //vector<int> common;
     while (i < n1 && j < n2 && k < n3)
     {
         while (ar1[i] == prev1 && i < n1)
@@ -31,7 +31,7 @@ void findCommon(int ar1[], int ar2[], int ar3[], int n1, int n2, int n3)
         if (ar1[i] == ar2[j] && ar2[j] == ar3[k])
         {
             cout << ar1[i] << " ";
-
+          //  common.push_back(ar1[i]);
             prev1 = ar1[i++];
             prev2 = ar2[j++];
             prev3 = ar3[k++];
